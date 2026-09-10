@@ -1,11 +1,10 @@
 # Internal docs (not for public repo)
 AGENTS.md
-phase*.md
-docs/phase*.md
 docs/github-release-cleanup.md
+docs/phase4-bugfix-update.md
 
 # Binaries
-noti-cli
+/noti-cli
 *.exe
 *.exe~
 *.dll
