@@ -288,6 +288,20 @@ The goal is deterministic targeting rather than fuzzy or natural-language select
 - Non-idempotent mutations do not have automatic retry behavior.
 - `noti-cli` does not replace an entire page as part of a targeted text mutation.
 
+## Project Origin
+
+`noti-cli` was originally created to solve a personal workflow problem: making precise and safe edits to Notion content from automation and AI-assisted development workflows.
+
+It is intentionally focused rather than a full-featured Notion client. The goal is to make targeted content operations predictable, safe, and easy to automate.
+
+If you have a similar workflow, you may find `noti-cli` useful. Contributions and improvements are welcome, but the project does not aim to cover every Notion API feature.
+
+## Project Status
+
+`noti-cli` has completed its core MVP goal: providing precise, block-aware Notion content operations suitable for automation and AI-assisted workflows.
+
+The project is intentionally focused on safe, deterministic content operations rather than becoming a general-purpose Notion client.
+
 ## Verification
 
 The project has been validated against the real Notion API and its test suite.
@@ -304,20 +318,6 @@ Current verification includes:
 - `--expected` validation
 - Post-replacement verification
 - Preservation of unrelated page content
-
-## Project Status
-
-`noti-cli` has completed its core MVP goal: providing precise, block-aware Notion content operations suitable for automation and AI-assisted workflows.
-
-The project is intentionally focused on safe, deterministic content operations rather than becoming a general-purpose Notion client.
-
-## Project Origin
-
-`noti-cli` was originally created to solve a personal workflow problem: making precise and safe edits to Notion content from automation and AI-assisted development workflows.
-
-It is intentionally focused rather than a full-featured Notion client. The goal is to make targeted content operations predictable, safe, and easy to automate.
-
-If you have a similar workflow, you may find `noti-cli` useful. Contributions and improvements are welcome, but the project does not aim to cover every Notion API feature.
 
 ## License
 
