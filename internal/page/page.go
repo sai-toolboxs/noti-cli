@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"noti-cli/internal/client"
-	nerr "noti-cli/internal/errors"
-	"noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
 )
 
 // Info retrieves page metadata and outputs it.

@@ -29,7 +29,18 @@ This makes it useful for automation, scripting, and AI-assisted workflows where 
 
 ## Installation
 
-Install with Go
+### Prebuilt binaries (recommended)
+
+Download the latest release for your platform from
+[GitHub Releases](https://github.com/sai-toolboxs/noti-cli/releases).
+
+Or use the installer script:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/sai-toolboxs/noti-cli/main/install.sh | sh
+```
+
+### Install with Go
 
 Requires Go:
 
@@ -37,7 +48,7 @@ Requires Go:
 go install github.com/sai-toolboxs/noti-cli/cmd/noti-cli@latest
 ```
 
-Build from source
+### Build from source
 
 ```sh
 git clone https://github.com/sai-toolboxs/noti-cli.git

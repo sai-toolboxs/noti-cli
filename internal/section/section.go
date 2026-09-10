@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"noti-cli/internal/client"
-	nerr "noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 // HeadingLevel represents the level of a heading block.

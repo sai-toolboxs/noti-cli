@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"noti-cli/internal/client"
-	nerr "noti-cli/internal/errors"
-	"noti-cli/internal/input"
-	"noti-cli/internal/output"
-	"noti-cli/internal/text"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/input"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/text"
 )
 
 // Find resolves a section target and outputs metadata.

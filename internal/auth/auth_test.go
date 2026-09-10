@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	nerr "noti-cli/internal/errors"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 func TestValidateTokenEmpty(t *testing.T) {

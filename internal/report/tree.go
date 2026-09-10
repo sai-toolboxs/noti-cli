@@ -1,7 +1,7 @@
 package report
 
 import (
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 // TreeNode represents a node in the block tree.

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	nerr "noti-cli/internal/errors"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 // Config holds all configuration for the CLI.

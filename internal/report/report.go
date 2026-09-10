@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 // OutlineEntry represents a heading in the page outline.

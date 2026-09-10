@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 // ExportMarkdown renders a list of blocks as GitHub Flavored Markdown.

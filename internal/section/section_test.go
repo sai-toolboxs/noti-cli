@@ -3,7 +3,7 @@ package section
 import (
 	"testing"
 
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 func TestHeadingLevelFromType(t *testing.T) {

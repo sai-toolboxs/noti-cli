@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"noti-cli/internal/client"
-	"noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
 )
 
 func TestFindSuccess(t *testing.T) {

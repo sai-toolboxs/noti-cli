@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	nerr "noti-cli/internal/errors"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 // Parse reads raw input bytes and returns a Notion block array.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"noti-cli/internal/client"
-	nerr "noti-cli/internal/errors"
-	"noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
 )
 
 // Tree renders the full block tree of a page.

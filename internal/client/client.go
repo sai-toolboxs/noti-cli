@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	nerr "noti-cli/internal/errors"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 // NotionClient handles HTTP communication with the Notion API.

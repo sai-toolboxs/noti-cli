@@ -9,16 +9,16 @@ import (
 	"strings"
 	"syscall"
 
-	"noti-cli/internal/auth"
-	"noti-cli/internal/block"
-	"noti-cli/internal/client"
-	"noti-cli/internal/config"
-	nerr "noti-cli/internal/errors"
-	"noti-cli/internal/output"
-	"noti-cli/internal/page"
-	"noti-cli/internal/report"
-	"noti-cli/internal/section"
-	"noti-cli/internal/version"
+	"github.com/sai-toolboxs/noti-cli/internal/auth"
+	"github.com/sai-toolboxs/noti-cli/internal/block"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/config"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/page"
+	"github.com/sai-toolboxs/noti-cli/internal/report"
+	"github.com/sai-toolboxs/noti-cli/internal/section"
+	"github.com/sai-toolboxs/noti-cli/internal/version"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	nerr "noti-cli/internal/errors"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
 )
 
 type contextKey string

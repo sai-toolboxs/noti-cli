@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 func TestBuildTreeEmpty(t *testing.T) {

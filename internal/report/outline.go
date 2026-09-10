@@ -3,7 +3,7 @@ package report
 import (
 	"strings"
 
-	"noti-cli/internal/client"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
 )
 
 // BuildOutline extracts the heading hierarchy from a list of blocks.

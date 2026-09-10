@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"noti-cli/internal/client"
-	nerr "noti-cli/internal/errors"
-	"noti-cli/internal/input"
-	"noti-cli/internal/output"
+	"github.com/sai-toolboxs/noti-cli/internal/client"
+	nerr "github.com/sai-toolboxs/noti-cli/internal/errors"
+	"github.com/sai-toolboxs/noti-cli/internal/input"
+	"github.com/sai-toolboxs/noti-cli/internal/output"
 )
 
 // Get retrieves a single block by ID and outputs it.
